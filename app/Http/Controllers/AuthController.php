@@ -12,7 +12,6 @@ class AuthController extends Controller
     }
     public function welcome(Request $request)
     {
-        // $nama_depan = $request['']
         return view('welcome', $request);
     }
 }
