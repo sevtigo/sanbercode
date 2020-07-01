@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'HomeController@home');
 Route::get('/form', 'AuthController@form');
-Route::get('/welcome', 'AuthController@welcome');
+Route::post('/welcome', 'AuthController@welcome');
